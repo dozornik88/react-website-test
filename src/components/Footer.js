@@ -7,9 +7,7 @@ function Footer() {
 	return (
 		<div className="footer-container">
 			<section className="footer-subscription">
-				<p className="footer-subscription-heading">
-					Join us in this fine adventure
-				</p>
+				<p className="footer-subscription-heading">Join us</p>
 				<p className="footer-subscription-text">
 					You can unsubscribe at anytime
 				</p>
@@ -30,14 +28,14 @@ function Footer() {
 					<div className="footer-link-items">
 						<h2>About Us</h2>
 						<Link to="/sign-up">How it works</Link>
-						<Link to="/">Testimonials</Link>
-						<Link to="/">Careers</Link>
-						<Link to="/">Investors</Link>
+						<Link to="/">Top Perfumes</Link>
+						<Link to="/">New Perfumes</Link>
+						<Link to="/">Donate</Link>
 						<Link to="/">Terms of Service</Link>
 					</div>
 					<div class="footer-link-items">
 						<h2>Contact Us</h2>
-						<Link to="/">Contact</Link>
+						<Link to="/contacts">Contact</Link>
 						<Link to="/">Support</Link>
 						<Link to="/">Destinations</Link>
 						<Link to="/">Sponsorships</Link>
@@ -46,7 +44,7 @@ function Footer() {
 				<div className="footer-link-wrapper">
 					<div class="footer-link-items">
 						<h2>Videos</h2>
-						<Link to="/">Submit Video</Link>
+						<Link to="/">Submit a Review</Link>
 						<Link to="/">Ambassadors</Link>
 						<Link to="/">Agency</Link>
 						<Link to="/">Influencer</Link>
@@ -64,11 +62,13 @@ function Footer() {
 				<div class="social-media-wrap">
 					<div class="footer-logo">
 						<Link to="/" className="social-logo">
-							TRVL
-							<i class="fab fa-typo3" />
+							Noterance
+							<div className="im-container">
+								<img src="/images/logo2-1.jpg" alt="My logo" class="nav-logo" />
+							</div>
 						</Link>
 					</div>
-					<small class="website-rights">TRVL © 2020</small>
+					<small class="website-rights">Noterance © 2020</small>
 					<div class="social-icons">
 						<Link
 							class="social-icon-link facebook"

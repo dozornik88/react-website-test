@@ -5,40 +5,40 @@ import "./Cards.css";
 function Cards() {
 	return (
 		<div className="cards">
-			<h1> Check it out!</h1>
+			<h1> What is new? </h1>
 			<div className="cards__container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
 						<CardItem
-							src="images/img-9.jpg"
-							text="Adventure time for my homies"
-							label="Wow so cool"
+							src="images/perfume4.jpg"
+							text="A new scent has Arrived"
+							label="Revolutionary"
 							path="/services"
 						/>
 						<CardItem
-							src="images/img-2.jpg"
-							text="Tequilla island time, awaits!"
+							src="images/perfume1.png"
+							text="This is it! We have it now!"
 							label="Fancy"
 							path="/services"
 						/>
 					</ul>
 					<ul className="cards__items">
 						<CardItem
-							src="images/img-3.jpg"
-							text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+							src="images/perfume2.jpg"
+							text="Science said it cant be done!"
 							label="Mystery"
 							path="/services"
 						/>
 						<CardItem
-							src="images/img-4.jpg"
-							text="Experience Football on Top of the Himilayan Mountains"
-							label="Adventure"
+							src="images/perfume3.jpg"
+							text="This is the stuff dreams are made of"
+							label="Miracle"
 							path="/products"
 						/>
 						<CardItem
-							src="images/img-8.jpg"
-							text="Ride through the Sahara Desert on a guided camel tour"
-							label="Adrenaline"
+							src="images/perfume5.jpg"
+							text="Hear the sound of smell! HEAR IT!!!"
+							label="Gorgeous"
 							path="/sign-up"
 						/>
 					</ul>
