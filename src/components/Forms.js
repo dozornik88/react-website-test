@@ -1,3 +1,13 @@
+// "use strict";
+
+// fetch("./notes.json")
+// 	.then(function (resp) {
+// 		return resp.json();
+// 	})
+// 	.then(function (data) {
+// 		console.log(data);
+// 	});
+
 // import React from "react";
 // import ReactDOM from "react-dom";
 // import "./Forms.css";
