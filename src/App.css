@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.brands,
 .contacts,
 .sign-up {
 	display: flex;
@@ -27,7 +27,7 @@
 	z-index: -1;
 }
 
-.products {
+.brands {
 	background-image: url("/images/img-1.jpg");
 	background-position: center;
 	background-size: fill;
